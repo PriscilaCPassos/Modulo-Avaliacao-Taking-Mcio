@@ -14,10 +14,10 @@ programa
 		escreva("-Digite o segundo número: ")
 		leia(num2)
 		escreva("\n--- Realizaremos as operações seguintes ---")
-          escreva("\n A Soma é : ", num1+num2)
-          escreva("\n A Subtração é : ", num1-num2)
-          escreva("\n A multiplicação é : ", num1*num2)
-          escreva("\n A divisão é : ", num1/num2)
+                escreva("\n A Soma é : ", num1+num2)
+                escreva("\n A Subtração é : ", num1-num2)
+                escreva("\n A multiplicação é : ", num1*num2)
+                escreva("\n A divisão é : ", num1/num2)
 
 		
 	}
