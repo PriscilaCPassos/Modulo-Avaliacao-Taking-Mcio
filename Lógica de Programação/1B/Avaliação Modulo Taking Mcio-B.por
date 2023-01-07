@@ -8,18 +8,18 @@ programa
 	{
 	  real ValorDolares
 	  real ValorCot
-       real ValorReais
+          real ValorReais
 
-	     escreva("Inicializando o programa ... ")
+	        escreva("Inicializando o programa ... ")
 		escreva("\nDigite a quantidade de dolares US$: ")
 		leia(ValorDolares)
-          escreva("Digite o valor da cotação: ")
-          leia(ValorCot)
+                escreva("Digite o valor da cotação: ")
+                leia(ValorCot)
 
-          ValorReais = ValorDolares * ValorCot
+                ValorReais = ValorDolares * ValorCot
           
-          escreva("\n--- Realizando conversão ---")
-          escreva("\nO valor em Reais é R$: ", (ValorReais))
+                escreva("\n--- Realizando conversão ---")
+                escreva("\nO valor em Reais é R$: ", (ValorReais))
 
 
 		
