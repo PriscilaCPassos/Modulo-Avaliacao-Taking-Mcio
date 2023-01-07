@@ -1,0 +1,19 @@
+Criando uma Tabela (Endereço).
+
+CREATE TABLE public.tbendereco_passos (
+	endereco_id int4 NOT NULL,
+	tipo varchar(10) NOT NULL,
+	logradouro varchar(250) NOT NULL,
+	numero varchar(10) NOT NULL,
+	complemento varchar(100) NULL,
+	cep numeric NOT NULL,
+	cidade varchar(250) NOT NULL,
+	estado bpchar(2) NOT NULL,
+	pessoa_id int4 NOT NULL,
+	CONSTRAINT tbendereco_passos_pk PRIMARY KEY (endereco_id)
+);
+
+
+-- public.tbendereco_passos foreign keys
+
+ALTER TABLE public.tbendereco_passos ADD CONSTRAINT tbendereco_passos_fk FOREIGN KEY (pessoa_id) REFERENCES public.tbpessoa_passos(pessoa_id);

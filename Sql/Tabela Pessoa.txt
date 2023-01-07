@@ -1,0 +1,11 @@
+Criando uma Tabela (Pessoa).
+
+
+CREATE TABLE public.tbpessoa_passos (
+	pessoa_id int NOT NULL,
+	nome varchar(200) NOT NULL,
+	cpf varchar(25) NOT NULL,
+	idade date NULL,
+	sexo char(1) NOT NULL,
+	CONSTRAINT tbpessoa_passos_pk PRIMARY KEY (pessoa_id)
+);

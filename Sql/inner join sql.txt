@@ -1,0 +1,21 @@
+
+Criando uma consulta para trazer informações da tabela.
+
+
+select
+tbpessoa_passos.pessoa_id,
+tbpessoa_passos.nome,
+tbpessoa_passos.cpf,
+tbpessoa_passos.idade,
+tbpessoa_passos.sexo,
+tbendereco_passos.endereco_id,
+tbendereco_passos.tipo,
+tbendereco_passos.logradouro,
+tbendereco_passos.numero,
+tbendereco_passos.complemento,
+tbendereco_passos.cep,
+tbendereco_passos.cidade,
+tbendereco_passos.estado
+
+from tbpessoa_passos
+inner join tbendereco_passos on tbpessoa_passos.pessoa_id = tbendereco_passos.pessoa_id;
